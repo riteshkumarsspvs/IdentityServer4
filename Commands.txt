@@ -1,9 +1,0 @@
-﻿dotnet new -i IdentityServer4.Templates
-dotnet new is4empty -n IdentityServer	// For add Config and Identity server
-dotnet new is4ui // For add login UI
-
-Nuget:
-IdentityServer4
-Microsoft.AspNetCore.Authentication.JwtBearer
-IdentityModel
-Microsoft.AspNetCore.Authentication.OpenIdConnect
