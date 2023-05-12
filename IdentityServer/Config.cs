@@ -85,6 +85,14 @@ namespace IdentityServer
                             "resource1",
                             "api1"
                         }
+                    },
+                    new Client
+                    {
+                        ClientId = "client_id1",
+                        RequireClientSecret = false,
+                        AllowedGrantTypes = { GrantType.ResourceOwnerPassword },
+                        AllowedScopes = { "api1" },
+                        AllowOfflineAccess = true
                     }
             };
     }

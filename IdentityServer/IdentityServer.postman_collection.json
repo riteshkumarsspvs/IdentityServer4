@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "4f4beb49-808f-45b6-bb17-3d3ba12d9dcf",
+		"name": "IdentityServer",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9999519",
+		"_collection_link": "https://blue-space-416719.postman.co/workspace/Team-Workspace~b2189fbe-4a77-44e7-89a0-96aed2ab7f40/collection/9999519-4f4beb49-808f-45b6-bb17-3d3ba12d9dcf?action=share&creator=9999519&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "https://localhost:5001/connect/token",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjBCNUE0NzAyMDc1NkNDRUIzMzBGN0NERkQ4NjZFQjQ1IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODM5MTgyMzcsImV4cCI6MTY4MzkyMTgzNywiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjUwMDEvcmVzb3VyY2VzIiwiY2xpZW50X2lkIjoiY2xpZW50X2lkMSIsInN1YiI6IjEyMyIsImF1dGhfdGltZSI6MTY4MzkxODIyMSwiaWRwIjoibG9jYWwiLCJqdGkiOiIzNjgyQTgxQTFBNEE3NkVBM0M5OTMyQzgzMjBDQTRCOCIsImlhdCI6MTY4MzkxODIzNywic2NvcGUiOlsiYXBpMSIsIm9mZmxpbmVfYWNjZXNzIl0sImFtciI6WyJjdXN0b20iXX0.xH0L_rz10Eds8fOPiV5U7lK5TUSv4_gP2wPIPNRvsCD3gyZo6jfRNOOYfiseLsZzI-qPq2fcmJy1_AyyH3try8F8PeOTI9exHJT32dUdrxmOWy0MOJYKhcbdFPdfAnwyNIkJPCwWqGFR0JmuU5K26i24x33WPEkSQTMroT2OBAsZrLzGQH6z07woRjuHNAa6M3V3oYf0S6KzPXb0zALiPSy8PAdh5m2EOIMxz4IFMRRTEYTNh8otmRarXUzwqonQfhdmRbWbUgM3LWVrz-Ee2LEmwMn_nVFME7TDXpB3pYtGBAaDq5scYHx5aAJSqMN2Sq2dY0irzFWGuVOGY0DK8g",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "client_id",
+							"value": "client_id1",
+							"type": "text"
+						},
+						{
+							"key": "grant_type",
+							"value": "password",
+							"type": "text"
+						},
+						{
+							"key": "username",
+							"value": "ritesh",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "test",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://localhost:5001/connect/token",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "5001",
+					"path": [
+						"connect",
+						"token"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44357/identity",
+			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": [
+						{
+							"key": "clientId",
+							"value": "client",
+							"type": "string"
+						},
+						{
+							"key": "scope",
+							"value": "api1",
+							"type": "string"
+						},
+						{
+							"key": "clientSecret",
+							"value": "secret",
+							"type": "string"
+						},
+						{
+							"key": "addTokenTo",
+							"value": "header",
+							"type": "string"
+						},
+						{
+							"key": "tokenName",
+							"value": "TokenName",
+							"type": "string"
+						},
+						{
+							"key": "accessTokenUrl",
+							"value": "https://localhost:5001/connect/token",
+							"type": "string"
+						},
+						{
+							"key": "grant_type",
+							"value": "client_credentials",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "ClientId",
+						"value": "client",
+						"type": "text"
+					},
+					{
+						"key": "ClientSecret",
+						"value": "secret",
+						"type": "text"
+					},
+					{
+						"key": "Scope",
+						"value": "api1",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://localhost:44357/identity",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44357",
+					"path": [
+						"identity"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://localhost:44357/identity",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJSUzI1NiIsImtpZCI6IjBCNUE0NzAyMDc1NkNDRUIzMzBGN0NERkQ4NjZFQjQ1IiwidHlwIjoiYXQrand0In0.eyJuYmYiOjE2ODM4NDMwNDEsImV4cCI6MTY4Mzg0NjY0MSwiaXNzIjoiaHR0cHM6Ly9sb2NhbGhvc3Q6NTAwMSIsImF1ZCI6Imh0dHBzOi8vbG9jYWxob3N0OjUwMDEvcmVzb3VyY2VzIiwiY2xpZW50X2lkIjoiY2xpZW50IiwianRpIjoiQkYzMjVENTgwQzZEQzFBRDBFQjEzQTYyNTMzQ0I0RUUiLCJpYXQiOjE2ODM4NDMwNDEsInNjb3BlIjpbImFwaTEiXX0.AvLJ_1xevH0UH8M7rJeyw6Xqd8v0gcQbAIHKsbGCYWl4I7oyMFDI2ji1i-WvJ0vm5faUlMqUb717vqpa8uUnTflH4RQVESqMKjMfzsN0at8sWJcPKjBowTW8DItjq8AKi5c877x8XN4K2v8UNom-6SAevHBTeDuf28XFi5HwoGHcKPtE_Ku-QV0VGTI7FITKpbsLWilW4Y52a-Rf-iiqs7oHJcHLZbAZgJucDlyQAb4aLdXKWX2t0d84hZPrT4kGsw3Om_I3CNV03IxwS_-aBtyJ--mDmNcQzcR2UKqHjmVSXWhsUus2-J7ZCPkqqVDFFvEJupcLbHJP6Y7yaXp7yQ",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:44357/identity",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "44357",
+					"path": [
+						"identity"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

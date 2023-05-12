@@ -18,6 +18,7 @@ D:\Study\Practice\Identity\Apis\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.
 D:\Study\Practice\Identity\Apis\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 D:\Study\Practice\Identity\Apis\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\Study\Practice\Identity\Apis\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\Apis.csproj.AssemblyReference.cache
 D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\Apis.GeneratedMSBuildEditorConfig.editorconfig
 D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\Apis.AssemblyInfoInputs.cache
 D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\Apis.AssemblyInfo.cs
@@ -33,4 +34,3 @@ D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\Apis.dll
 D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\ref\Apis.dll
 D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\Apis.pdb
 D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\Apis.genruntimeconfig.cache
-D:\Study\Practice\Identity\Apis\obj\Debug\net5.0\Apis.csproj.AssemblyReference.cache

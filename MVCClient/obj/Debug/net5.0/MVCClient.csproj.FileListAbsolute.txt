@@ -305,6 +305,7 @@ D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\Microsoft.IdentityModel.Lo
 D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\Newtonsoft.Json.dll
 D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
 D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\cs\Microsoft.CodeAnalysis.resources.dll
 D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\de\Microsoft.CodeAnalysis.resources.dll
@@ -347,6 +348,7 @@ D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\MVCClient.TagHelpers.input
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\MVCClient.TagHelpers.output.cache
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\MVCClient.RazorCoreGenerate.cache
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
+D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\Razor\Views\Home\json.cshtml.g.cs
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -361,5 +363,4 @@ D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\MVCClient.dll
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\ref\MVCClient.dll
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\MVCClient.pdb
 D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\MVCClient.genruntimeconfig.cache
-D:\Study\Practice\Identity\MVCClient\bin\Debug\net5.0\Newtonsoft.Json.dll
-D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\Razor\Views\Home\json.cshtml.g.cs
+D:\Study\Practice\Identity\MVCClient\obj\Debug\net5.0\MVCClient.csproj.AssemblyReference.cache
